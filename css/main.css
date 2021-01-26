@@ -1,3 +1,5 @@
+/* Base CSS and style blocks */
+
 * {
   margin: 0;
   padding: 0;
@@ -17,12 +19,23 @@ body {
   border-radius: 10px;
 }
 
+/* Width CSS blocks*/
 .w25 {
   width: 25%;
 }
 
 .w50 {
   width: 50%;
+}
+
+/*Font CSS blocks*/
+.title30px {
+  font-size: 30px;
+  letter-spacing: -1.5px
+}
+
+.descr15px {
+  font-size: 15px;
 }
 
 .overlay {
@@ -36,9 +49,6 @@ body {
   display: table;
   clear: both;
 }
-
-/* Start Testing */
-
 
 /*Header*/
 
@@ -91,7 +101,7 @@ margin: 20px 0 20px;
   position: relative;
 }
 
-.jumbotron-text {
+.jumbotron-text-container {
   position: absolute;
   bottom: 80px;
   left: 40px;
@@ -99,26 +109,20 @@ margin: 20px 0 20px;
   color: #fff;
 }
 
-.jumbotron-title {
+.jumbotron-text-container > .title {
   font-weight: normal;
-  font-size: 30px;
-  letter-spacing: -1.5px
-}
-
-.jumbotron-content {
-  font-size: 16px;
 }
 
 /* Section with columns */
 
-.section-content {
-  background-color: #0484FF;
+
+#mainTitle {
+  font-weight: 800;
+  font-size: 40px;
 }
 
-.title {
-  background-color: #ABCFE7;
-  width: 100%;
-  height: 80px;
+.section-content > .descr15px {
+  color: #858585;
 }
 
 .column {

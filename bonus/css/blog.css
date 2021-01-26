@@ -1,0 +1,66 @@
+main {
+  height: 1000px;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.image-box {
+  width: 260px;
+  height: 260px;
+}
+
+.image-box.img1 {
+  margin-right: 10px;
+  float: left;
+}
+
+.image-box.img2 {
+  margin-right: 10px;
+  float: right;
+}
+
+.image-box .overlay {
+  background-color: rgba(0,0,0,.2);
+}
+
+.img1 {
+  background-image: url("../../img/img-5.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img2 {
+  background-image: url("../../img/img-2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.article {
+  background-color: purple;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.image {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.paragraph {
+  color: #858585;
+}
+
+.first-letter-float {
+  color: #000;
+  font-weight: 500;
+  float: left;
+  font-size: 100px;
+  line-height: 1;
+  padding: 0 15px 0;
+}

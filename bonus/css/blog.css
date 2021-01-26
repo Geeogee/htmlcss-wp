@@ -33,6 +33,7 @@ body {
 
 
 /* Main */
+
 .image-box {
   width: 260px;
   height: 260px;
@@ -86,16 +87,27 @@ body {
 
 .column {
   margin: 20px;
+  position: relative;
 }
 
-.top-column {
-  height: 260px;
+.bottom-column {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.bottom-column > * {
-  margin: 0;
-  text-align: center;
+.bottom-column a {
+  color: #FFF;
+  font-size: 20px;
+  text-decoration: none;
 }
+
+.bottom-column a:hover {
+  color: #000;
+}
+
+
 
 .full-view-width > .title30px {
   margin: 20px;

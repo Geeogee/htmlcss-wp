@@ -3,6 +3,30 @@
   width: 70%;
 }
 
+/* Images for boxes */
+.img2 {
+  background-image: url("../../img/img-2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.img4 {
+  background-image: url("../../img/img-4.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.img5 {
+  background-image: url("../../img/img-5.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/* For section at full page width */
 body {
   overflow-x: hidden;
 }
@@ -18,29 +42,14 @@ body {
   background-color: rgba(0,0,0,.2);
 }
 
-/* Images for boxes */
-.image-box.img1 {
-  margin-right: 20px;
-  float: left;
-}
-
 .image-box.img2 {
   margin-left: 20px;
   float: right;
 }
 
-.img1 {
-  background-image: url("../../img/img-5.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.img2 {
-  background-image: url("../../img/img-2.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
+.image-box.img5 {
+  margin-right: 20px;
+  float: left;
 }
 
 /* Paragraph */
@@ -58,12 +67,24 @@ body {
   padding: 0 15px 0;
 }
 
-.test  {
-  position: relative;
+/* Full width section*/
+
+ /* Breaking main width with full viewport width */
+.full-view-width  {
   width: 100vw;
-  height: 200px;
-  background-color: red;
-  left: 50%;
-  margin-left: -50vw;
-  overflow-x: hidden;
+  position: relative;
+  left: 50%; /* Top left corner at the center of the
+  centered container */
+  margin-left: -50vw; /* Top-left corner at the start of the viewport*/
+  margin-top: 30px;
+  border-top: 15px solid #000;
+}
+
+.full-view-width .image-box {
+  width: calc(100% / 5 - 40px);
+}
+
+.image-box.img4 {
+  float: left;
+  margin: 20px;
 }

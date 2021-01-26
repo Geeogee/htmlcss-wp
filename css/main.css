@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .centerCont {
-  width: 70%;
-  margin: 20px auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .row::after {
@@ -17,10 +21,16 @@
 
 /* Start Testing */
 
- header {
-  background-color: #E579E6;
-  height: 100px;
+
+#logo {
+  width: 170px;
 }
+
+.logo-container {
+  border-right: 1px solid #e5e5e5;
+  width: 190px;
+}
+
 
 /* Main */
 

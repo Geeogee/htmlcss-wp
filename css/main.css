@@ -135,8 +135,27 @@ margin: 20px 0 20px;
 }
 
 .top-column {
-  height: 300px;
+  height: 260px;
 }
+
+.img1 {
+  background-image: url("../img/img-1.jpg");
+  background-size: cover;
+}
+
+.img2 {
+  background-image: url("../img/banner-2.jpg");
+  background-size: cover;
+}
+
+.img3 {
+  background-image: url("../img/img-3.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 20% 70px;
+}
+
+
 
 
 /* Footer */

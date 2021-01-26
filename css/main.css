@@ -25,6 +25,12 @@ body {
   width: 50%;
 }
 
+.overlay {
+  background-color: rgba(0,0,0,.2);
+  height: 100%;
+  border-radius: 10px;
+}
+
 .row::after {
   content: "";
   display: table;
@@ -77,11 +83,33 @@ main > section {
 margin: 20px 0 20px;
 }
 
+ /* Jumbotron */
 .section-jumbotron {
   background: url("../img/banner.jpg");
   background-position: center;
-  height: 400px;
+  height: 500px;
+  position: relative;
 }
+
+.jumbotron-text {
+  position: absolute;
+  bottom: 80px;
+  left: 40px;
+  width: 60%;
+  color: #fff;
+}
+
+.jumbotron-title {
+  font-weight: normal;
+  font-size: 30px;
+  letter-spacing: -1.5px
+}
+
+.jumbotron-content {
+  font-size: 16px;
+}
+
+/* Section with columns */
 
 .section-content {
   background-color: #0484FF;

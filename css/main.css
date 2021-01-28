@@ -29,12 +29,12 @@ body {
 }
 
 /* CSS Blocks for font size */
-.title30px {
+.bigTitle {
   font-size: 30px;
   letter-spacing: -1.5px
 }
 
-.descr15px {
+.normalText {
   font-size: 15px;
 }
 
